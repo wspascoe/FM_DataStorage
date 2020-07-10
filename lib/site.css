@@ -1,0 +1,71 @@
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    .bar {
+        background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    }
+    
+    .bar-background {
+        background-color: hsl(229, 57%, 11%);
+    }
+    
+    .start {
+        float: left;
+        color: white;
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    
+    .end {
+        float: right;
+        text-align: right;
+        color: white;
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 60%;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        font-family: mainFont;
+        font-size: 13px;
+    }
+    
+    body {
+        background-image: url("../images/bg-desktop.png");
+        background-color: hsl(229, 57%, 11%);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% 50%;
+    }
+    
+    .card {
+        background-color: hsl(228, 56%, 26%);
+    }
+    
+    .card-rounded {
+        border-radius: 10px 100px 10px 10px;
+    }
+    
+    .card-border {
+        border-radius: 10px;
+    }
+    
+    .btn-primary {
+        background-color: hsl(229, 57%, 11%);
+        border-color: hsl(228, 56%, 26%);
+    }

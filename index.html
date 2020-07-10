@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/site.css">
+
 </head>
+
 <body>
+    <br/>
+    <div class="container">
+        <div class=" card card-rounded " style="width: 20rem; height: 12rem;">
+            <div class="card-body ">
+                <h5 class="card-title "><img src="./images/logo.svg " class="text-white "></h5>
+                <div class="btn-group mx-3 mt-3">
+                    <a href="# " class="btn btn-primary mx-2"><img src="./images/icon-document.svg " class="text-white "></a>
+                    <a href="# " class="btn btn-primary mx-2"><img src="./images/icon-folder.svg " class="text-white "></a>
+                    <a href="# " class="btn btn-primary mx-2"><img src="./images/icon-upload.svg " class="text-white "></a>
+                </div>
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            </div>
+        </div>
+        <div class="card card-border ml-5" style="width: 30rem; height: 10rem;">
+            <div class="card-body ">
+                <h5 class="text-white-50 mb-3 " style="font-size: 12px; ">You’ve used
+                    <span class="text-white ">815 GB</span> of your storage</h5>
+                <div class="progress bar-background ">
+                    <div class="progress-bar bar rounded " style="width: 80% "></div>
+                </div>
+                <div class="start ">0 GB</div>
+                <div class="end ">1000 GB</div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
 </html>
